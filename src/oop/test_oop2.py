@@ -13,7 +13,7 @@ class Oop2Tests(unittest.TestCase):
     self.assertEqual(self.ground_vehicle.num_wheels, 4)
 
   def test_motocycle_num_wheels(self):
-    self.assertEqual(self.motorcycle.num_wheels, 2)
+    self.assertEqual(self.motorcycle.num_wheels, 4)
 
   def test_ground_vehicle_drive(self):
     self.assertEqual(self.ground_vehicle.drive(), "vroooom")
